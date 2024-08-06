@@ -1,0 +1,32 @@
+{
+    "name": "IGotSkate",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v0.13.4",
+        "tag": "v0.13.4",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/0427f42b0865b675f546f7fd7b4f21f3c62fcc2d",
+        "target": "1.12.55",
+        "pxt": "5.18.3",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
