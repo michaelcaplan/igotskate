@@ -46,7 +46,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, ot
     end = 1
     animation.setAction(raptor, ActionKind.Dead)
     pause(50)
-    game.over(false, effects.dissolve)
+    game.over(true, effects.dissolve)
 })
 let cloud: Sprite = null
 let cactus: Sprite = null
