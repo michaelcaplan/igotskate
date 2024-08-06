@@ -22,6 +22,7 @@ controller.anyButton.onEvent(ControllerButtonEvent.Pressed, function () {
     if (play) {
         if (raptor.y == 94 && end == 0) {
             raptor.vy = -160
+            music.play(music.melodyPlayable(music.knock), music.PlaybackMode.InBackground)
             animation.setAction(raptor, ActionKind.Jumping)
         }
     }
