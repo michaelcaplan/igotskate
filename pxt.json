@@ -1,6 +1,6 @@
 {
     "name": "IGotSkate",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Skateboarding across The Annapolis Valley, ollie over the obstacles",
     "dependencies": {
         "device": "*",
